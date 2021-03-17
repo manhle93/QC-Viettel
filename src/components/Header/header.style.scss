@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    width: 1024px;
+    height: 60px;
+    .logo-container {
+        flex: 1;
+        .logo-image {
+            width: 200px;
+        }
+    }
+    .phone {
+        font-size: 26px;
+        color: red;
+    }
+
+}

@@ -1,0 +1,72 @@
+.body {
+    padding-top: 30px;
+    width: 1024px;
+    .text-header {
+        font-size: 20px;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+.title-body {
+    padding-right: 30px; padding-left: 30px;
+}
+.package-personal-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+
+    .package-personal {
+        display: flex;
+        flex-flow: column; 
+        align-items: center;
+        width: 230px;
+        border: 1px solid  #cb4335 ;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        .package-personal-item {
+            padding-top: 10px;
+            color:    #095553   ;
+            font-weight: bold;
+        }
+
+        .title-package {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+        .speed {
+            font-size: 22px;
+            font-weight: bold;
+            color: red;
+        }
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color:  #2471a3 ;
+            padding-bottom: 20px;
+        }
+    }
+}
+.khuyen-mai {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 50px;
+    padding-left: 60px;
+    .km-text-container {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        .km-text {
+            margin-bottom: 10px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .khuyen-mai-image {
+        max-width: 390px;
+    }
+
+}   
