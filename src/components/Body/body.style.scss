@@ -8,6 +8,9 @@
         padding-left: 30px;
     }
 }
+.canhan-container {
+    padding-bottom: 50px;
+}
 .title-body {
     padding-right: 30px; padding-left: 30px;
 }
@@ -52,7 +55,7 @@
 .khuyen-mai {
     display: flex;
     flex-flow: row wrap;
-    padding-top: 50px;
+    // padding-top: 50px;
     padding-left: 60px;
     .km-text-container {
         flex: 1;
@@ -70,3 +73,7 @@
     }
 
 }   
+
+.truyenhinh-container {
+    padding-bottom: 50px;
+}

@@ -8,7 +8,7 @@ const Body = () => {
         { name: 'NET 4 PLUS', speed: '70 Mbs', price: '260.000 đ/Tháng' },
     ]
 
-    return (<div>
+    return (<div className="canhan-container">
         <h2 className="title-body">1. INTERNET VIETTEL CHO KHÁCH HÀNG CÁ NHÂN</h2>
         <div className="package-personal-container">
             {
