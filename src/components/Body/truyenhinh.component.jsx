@@ -7,8 +7,7 @@ const TruyenHinh = () => {
       <h2 className="title-body">2. DỊCH VỤ TRUYỀN HÌNH SỐ</h2>
       <div className="khuyen-mai">
         <img src={TruyenHinhPic} className="khuyen-mai-image" alt="manh" />
-
-        <div className="km-text-container" style={{paddingLeft: '50px'}}>
+        <div className="km-text-container truyenhinh-text-container">
           <div className="km-text" style={{ color: "black"}}>
             Truyền hình số HD Viettel: chỉ{" "}
             <span

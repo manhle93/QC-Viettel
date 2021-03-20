@@ -26,15 +26,14 @@ const Body = () => {
                 ))
             }
         </div>
-        <div>
+        <div style={{ paddingTop: "30px" }}>
             <div className="khuyen-mai">
-
                 <div className="km-text-container">
                     <h2>Khuyến mãi ưu đãi khi lắp mạng Viettel</h2><br />
                     <div className="km-text">- Đóng trước 06 tháng tặng thêm 01 tháng</div>
-                    <div className="km-text">- Đóng trước 06 tháng tặng thêm 01 tháng</div>
-                    <div className="km-text">- Đóng trước 18 tháng tặng thêm 03 tháng</div>
                     <div className="km-text">- Đóng trước 12 tháng tặng thêm 02 tháng</div>
+                    <div className="km-text">- Đóng trước 18 tháng tặng thêm 03 tháng</div>
+                    <div style={{fontSize: '26px', paddingTop: '20px', color: '#004D40', fontWeight: 'bold'}}>Liên hệ ngay: <b style={{ color: "#F50057"}}>0866.884.222</b></div>
                 </div>
                 <img src={khuyenMai} className="khuyen-mai-image" alt="manh" />
             </div>

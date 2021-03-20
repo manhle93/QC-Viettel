@@ -1,32 +1,34 @@
 .banner {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-image: linear-gradient(160deg, #0037e9 15%, #77dac0 100%);
+  background-image: linear-gradient(160deg, #0037e9 15%, #77dac0 100%);
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  .text-banner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px #5f6a6a;
+  }
+  .text-title {
+      margin-top: 15px;
+  }
+}
 
+/* Mobile <740px */
+@media only screen and (max-width: 46.1875em) {
+    .banner {
+        .text-banner {
+          font-size: 16px;
+        }
+      }
+}
 
-    .image-banner-container {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content:space-around;
-        
-    }
-    .image-banner {
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-    }
-    .text-banner {
-        margin-top: 80px;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content:center;
-        align-items: center;
-        font-size: 28px;
-        font-weight: bold;
-        color: white;
-        text-shadow: 1px 1px  #5f6a6a ;
-    }
-    .text-title {
-        margin-top: 20px;
-    }
+/* Tablet >=740px and < 1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.93em) {
 }

@@ -1,17 +1,40 @@
 .header {
-    display: flex;
-    align-items: flex-end;
-    width: 1024px;
-    height: 60px;
-    .logo-container {
-        flex: 1;
-        .logo-image {
-            width: 200px;
-        }
+  display: flex;
+  align-items: flex-end;
+  width: 1024px;
+  height: 60px;
+  .logo-container {
+    flex: 1;
+    .logo-image {
+      width: 200px;
     }
-    .phone {
-        font-size: 26px;
-        color: red;
-    }
+  }
+  .phone {
+    font-size: 26px;
+    color: red;
+  }
+}
 
+/* Mobile <740px */
+@media only screen and (max-width: 46.1875em) {
+    .header {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        height: 60px;
+        .logo-container {
+          flex: 1;
+          .logo-image {
+            width: 150px;
+          }
+        }
+        .phone {
+          font-size: 20px;
+          color: red;
+        }
+      }
+}
+
+/* Tablet >=740px and < 1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.93em) {
 }

@@ -1,0 +1,15 @@
+.footer-container {
+  height: 100px;
+  width: 100%;
+  background-color: #f50057;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footer-hotline {
+    color: white;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+  }
+}
