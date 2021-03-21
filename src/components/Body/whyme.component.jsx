@@ -44,14 +44,14 @@ const WhyMe = () => {
         Lắp đặt càng nhiều ưu đãi càng lớn dành cho các <b>gói COMBO Viettel Hưng
         Yên</b> cung cấp các gói cước vừa có internet vừa có truyền hình. Nếu bạn
         muốn có thêm thoại và data (Gói FMC). Điều đặc biệt là bạn càng dùng
-        nhiều dịch vụ. <b style={{ color: "red"}}>Liên hệ: 0866.884.222</b>
+        nhiều dịch vụ. <b style={{ color: "red"}}>Liên hệ: <a href="tel:0866.884.222" style={{textDecoration: "none", color: 'red'}}>0866.884.222</a></b>
       </p>
       <p>
         Dù bạn <b>học online, Livestream, chơi game, smart home !</b> thì bạn cũng đang
         được sử dụng công nghệ mới nhất (4G, 5G, Gpon, NGN.vv) và 24/24h sẽ luôn
         có đội ngũ nhân viên Viettel Hưng Yên đảm bảo chất lượng cho bạn.
       </p>
-      <div className="lienhe-whyme">Liên hệ ngay: <b style={{ color: "red"}}>Holine 0866.884.222</b></div>
+      <div className="lienhe-whyme">Liên hệ ngay: <b style={{ color: "red"}}>Holine <a href="tel:0866.884.222" style={{textDecoration: "none", color: 'red'}}>0866.884.222</a></b></div>
     </div>
   );
 };

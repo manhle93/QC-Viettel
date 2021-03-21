@@ -7,7 +7,7 @@ const Header = () => {
                 <img className="logo-image" src={Logo} alt="Vietel" />
             </div>
             <div className="phone">
-                <span>Hotline:  <b>0866.884.222</b></span>
+                <span>Hotline:  <b><a href="tel:0866.884.222" style={{textDecoration: "none", color: 'red'}}>0866.884.222</a></b></span>
             </div>
         </div>
     )

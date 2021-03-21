@@ -15,7 +15,7 @@ const Banner = () => {
             </div> */}
             <div className="text-banner">
                 <div className="text-title">TƯ VẤN LẮP ĐẶT INTERNET - TRUYỀN HÌNH</div>
-                <div className="text-title">HOTLINE: 0866.884.222</div>
+                <div className="text-title">HOTLINE: <a href="tel:0866.884.222" style={{textDecoration: "none", color: 'white'}}>0866.884.222</a></div>
             </div>
         </div>
     )

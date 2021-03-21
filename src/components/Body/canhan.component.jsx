@@ -33,7 +33,7 @@ const Body = () => {
                     <div className="km-text">- Đóng trước 06 tháng tặng thêm 01 tháng</div>
                     <div className="km-text">- Đóng trước 12 tháng tặng thêm 02 tháng</div>
                     <div className="km-text">- Đóng trước 18 tháng tặng thêm 03 tháng</div>
-                    <div style={{fontSize: '26px', paddingTop: '20px', color: '#004D40', fontWeight: 'bold'}}>Liên hệ ngay: <b style={{ color: "#F50057"}}>0866.884.222</b></div>
+                    <div style={{fontSize: '26px', paddingTop: '20px', color: '#004D40', fontWeight: 'bold'}}>Liên hệ ngay: <b style={{ color: "#F50057"}}><a href="tel:0866.884.222" style={{textDecoration: "none", color: '#F50057'}}>0866.884.222</a> </b></div>
                 </div>
                 <img src={khuyenMai} className="khuyen-mai-image" alt="manh" />
             </div>
